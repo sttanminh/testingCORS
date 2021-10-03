@@ -47,10 +47,10 @@ function callApi() {
 
 const port = process.env.PORT || "9000";
 server.use(
-  express.static('/client/build')
+  express.static('./client/build')
 );
 server.get('*',(req,res)=>{
-  res.sendFile('/client/build','index.html')
+  res.sendFile('./client/build','index.html')
 })
 server.listen(port, () => {
   console.log(`Proxy server listening on http://localhost:${port}`)
