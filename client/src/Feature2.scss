@@ -1,0 +1,119 @@
+.Feature2-light {
+  text-align: center;
+  background: linear-gradient(120deg, #f2f2f2, #f2f2f2, #f2f2f2);
+  width: 90vh;
+  height: 70vh;
+  margin-top: 50px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+  /* float: left;
+  position: relative;
+  left: -50% */
+
+  #leftGraph2 {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #graphOptions2 {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.Feature2-dark {
+  text-align: center;
+  background: linear-gradient(120deg, #3a3d3a, #3a3d3a, #3a3d3a);
+  width: 90vh;
+  height: 70vh;
+  margin-top: 50px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 20px;
+  color: ivory;
+
+  #leftGraph2 {
+    background-color: rgb(200, 200, 200);
+  }
+
+  #graphOptions2 {
+    background-color: rgb(200, 200, 200);
+    color: black;
+  }
+
+  .input-field-2 {
+    background-color: rgb(200, 200, 200);
+    border-color: transparent;
+  }
+
+  .date-field-2 {
+    background-color: rgb(200, 200, 200);
+    border-color: transparent;
+  }
+
+  .time-sel-button-2 {
+    color: ivory;
+  }
+}
+
+.input-label-2 {
+  font-size: 2.25vh;
+  width: 100%;
+  float: left;
+  margin-left: 0.8vh;
+  text-align: left;
+}
+
+.input-field-2 {
+  font-size: 2vh;
+  height: 2.25vh;
+  margin: 1.5vh;
+}
+
+.small-label-2 {
+  font-size: 2vh;
+  text-align: right;
+  margin-left: 1.5vh;
+}
+
+.date-field-2 {
+  font-size: 1.5vh;
+  height: 2.25vh;
+  width: 50%;
+  float: right;
+  margin: 0 3.1vh;
+}
+
+.time-sel-button-2 {
+  font-size: 2vh;
+  width: 40%;
+  height: 4.5vh;
+  padding: 0.79vh;
+  margin: 0.79vh;
+  background-color: rgb(131, 143, 255);
+  border-radius: 1.5vh;
+
+  &:hover {
+    border-color: #26ffbe9a;
+    transition: 0.5s;
+  }
+}
+
+#leftGraph2 {
+  width: 57.5%;
+  float: left;
+}
+
+#rightOptions2 {
+  width: 40%;
+  float: right;
+  text-align: center;
+}
+
+#graphOptions2 {
+  font-size: 1.5vh;
+  height: 11.5vh;
+  margin: 5%;
+  text-align: left;
+  padding: 1.5vh 2.35vh 1.5vh;
+  cursor: default;
+}
