@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "start": "node index.js && run build",
-        "heroku-postbuild": "cd client && rm -rf node_modules && npm ci && npm run build"
+        "heroku-postbuild": "cd client && rm -rf node_modules && npm i && npm run build"
     },
     "dependencies": {
         "body-parser": "^1.19.0",
