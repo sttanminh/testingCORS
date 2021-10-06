@@ -49,7 +49,7 @@ const port = process.env.PORT || 9000;
 if (process.env.NODE_ENV === "production") {
 server.use('/static', express.static('client/build'));
 server.get('*',(req,res)=>{
-  res.sendFile(__dirname +'/client/build',__dirname+'/index.html')
+  res.sendFile('/client/build/index.html')
 })
 }
 server.listen(port, () => {
