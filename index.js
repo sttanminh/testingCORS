@@ -48,7 +48,7 @@ function callApi() {
 
 const port = process.env.PORT || 9000;
 if (process.env.NODE_ENV === "production") {
-server.use('/static', express.static('client/build'));
+server.use(express.static(path.join(__dirname, 'client/build')));
 server.get('*',(req,res)=>{
   res.sendFile(path.join(__dirname+'/client/build/index.html'))
 })
