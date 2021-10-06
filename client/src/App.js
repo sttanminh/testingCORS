@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     console.log("before fetch")
-    fetch('http://localhost:9123/victoria-cases')
+    fetch('https://testing-cors-monash.herokuapp.com/victoria-cases')
       .then(response => response.json())
       .then(data => {
         setVicData(data)
