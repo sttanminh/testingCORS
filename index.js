@@ -45,7 +45,7 @@ function callApi() {
   })
 }
 
-const port = process.env.PORT || "9000";
+const port = process.env.PORT || 9000;
 if (process.env.NODE_ENV === "production") {
 server.use('/',
   express.static('client/build')
