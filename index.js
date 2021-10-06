@@ -3,6 +3,7 @@ const cors = require('cors')
 const server = express()
 const request = require('superagent')
 const jsdom = require("jsdom");
+var path = require('path')
 
 server.use(cors())
 server.use((_, res, next) => {
